@@ -1,4 +1,4 @@
-# Large language models in jugdment and decision making research
+## Large language models in jugdment and decision making research
 ### A workshop by Zak Hussain, Sudeep Bhatia, and Dirk Wulff
 
 
