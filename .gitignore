@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 /ex1/test_trainer/
 /ex1/distilbert-base-uncased-finetuned-vaccine/
+/ex1/old/
