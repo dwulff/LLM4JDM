@@ -41,14 +41,12 @@ drive.mount("/content/drive")
 
 #### (2) Local
 1. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
-2. Create a new conda environment by running the following command in your terminal:
-```conda create -n LLM4JDM python=3.8```
+2. Create a new conda environment from the environment.yml file by running the following command in your terminal:
+```conda env create -f environment.yml```
 3. Activate the environment by running the following command in your terminal:
 ```conda activate LLM4JDM```
 4. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
 5. Navigate to the folder "LLM4JDM" in your terminal.
-6. Install the required packages by running the following command in your terminal:
-```pip install -r requirements.txt```
 7. Run the following command in your terminal to start the Jupyter notebook server:
 ```jupyter notebook```
 8. You are now ready to start the exercises!
