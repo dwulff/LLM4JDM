@@ -37,19 +37,25 @@ drive.mount("/content/drive")
 7. Open the notebook for exercise 1 (vaccine.ipynb)
 8. In the top-hand menu, click Runtime > Change runtime type > Hardware accelerator > T4 GPU
 9. Run the first cell of the notebook to install the required packages. This may take a few minutes. 
-10. You are now ready to start the exercises!
+You are now ready to start the exercises!
 
 #### (2) Local
 1. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
 2. Create a new conda environment from the environment.yml file by running the following command in your terminal:
-```conda env create -f environment.yml```
+```
+conda env create -f environment.yml
+```
 3. Activate the environment by running the following command in your terminal:
-```conda activate LLM4JDM```
+```
+conda activate LLM4JDM
+```
 4. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
 5. Navigate to the folder "LLM4JDM" in your terminal.
-7. Run the following command in your terminal to start the Jupyter notebook server:
-```jupyter notebook```
-8. You are now ready to start the exercises!
+6. Run the following command in your terminal to start the Jupyter notebook server:
+```
+jupyter notebook
+```
+You are now ready to start the exercises!
 
 
 
