@@ -17,7 +17,10 @@ Time: August 20th, between 9:45 AM - 3:00 PM
 2:30 PM - 3:00 PM: Discussion<br>
 
 ### Environment Setup
-There are two options for setting up your Python environment: (i) Google Colab (cloud-based), (ii) Locally.
+There are two options for setting up your Python environment: (i) Google Colab (cloud-based), (ii) Locally. The advantages of 
+colab are:
+a. Ease of setup
+b. Free High-performance GPUs
 
 #### (1) Google Colab
 1. If you do not have a Google account, you will need to create one (this can be deleted after the workshop).
@@ -40,17 +43,33 @@ drive.mount("/content/drive")
 You are now ready to start the exercises!
 
 #### (2) Local
-1. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
-2. Create a new conda environment from the environment.yml file by running the following command in your terminal:
+1. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
+2. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
+3. Navigate to the folder "LLM4JDM" in your terminal.
+4. Create a new conda environment by running the following command in your terminal:
 ```
-conda env create -f environment.yml
+conda create --name LLM4JDM python=3.8
 ```
+The terminal will ask you to confirm the installation. Type "y" and press enter (do the same for any subsequent steps).
 3. Activate the environment by running the following command in your terminal:
 ```
 conda activate LLM4JDM
 ```
-4. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
-5. Navigate to the folder "LLM4JDM" in your terminal.
+4. Install the required packages by running the following commands in your terminal:
+```
+conda install -c huggingface -c conda-forge jupyter pandas numpy scikit-learn transformers datasets accelerate
+```
+and
+```
+pip install evaluate
+```
+4. If you are using a Mac, you can install an Apple M1/M2 GPU compatible version of PyTorch by running the 
+following command in your terminal (this will drastically speed up the exercises if your Mac has an M1/M2 chip):
+```
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
+```
+If you are using Windows or Linux, please follow the instructions at https://pytorch.org/get-started/locally/ to install
+the appropriate version of PyTorch for your system.
 6. Run the following command in your terminal to start the Jupyter notebook server:
 ```
 jupyter notebook
