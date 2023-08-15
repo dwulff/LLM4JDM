@@ -17,12 +17,11 @@ Time: August 20th, between 9:45 AM - 3:00 PM
 2:30 PM - 3:00 PM: Discussion<br>
 
 ### Environment Setup
-There are two options for setting up your Python environment: (i) Google Colab (cloud-based), (ii) Locally. The advantages of 
-colab are:
-a. Ease of setup
-b. Free High-performance GPUs
+There are two options for setting up your Python environment: (i) Google Colab (cloud-based), (ii) Locally. For the
+purposes of this workshop, we recommend using Golab due to the ease of setup and the availability of GPUs. However, if
+you would like to use your own machine, we also provide instructions for setting up your environment locally.
 
-#### (1) Google Colab
+#### (i) Google Colab
 1. If you do not have a Google account, you will need to create one (this can be deleted after the workshop).
 2. Navigate to Google Drive 
 3. In the top-left, click New > More > Colaboratory. If you do not see Colaboratory, you may need to click "Connect more apps" and install it.
@@ -42,7 +41,7 @@ drive.mount("/content/drive")
 9. Run the first cell of the notebook to install the required packages. This may take a few minutes. 
 You are now ready to start the exercises!
 
-#### (2) Local
+#### (ii) Local
 1. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
 2. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
 3. Navigate to the folder "LLM4JDM" in your terminal.
