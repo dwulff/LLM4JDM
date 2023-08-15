@@ -3,10 +3,10 @@
 
 
 ### Location & Time
-<br> Meeting room: LC.2.400 Club lounge (see the picture & google maps link: https://goo.gl/maps/9NQky6m7Dx6pUQ5V6 for additional orientation)
-<br> Venue: Vienna University of Economics and Business (Wirtschaftsuniversität Wien, WU)
-<br> Address: Welthandelsplatz 1, 1020 Vienna |Building: Library and Learning Center (LC)
-<br> Time: August 20th, between 9:45 AM - 3:00 PM
+<br> <b>Meeting room</b>: LC.2.400 Club lounge (see [google maps](https://goo.gl/maps/9NQky6m7Dx6pUQ5V6))
+<br> <b>Venue</b>: Vienna University of Economics and Business (Wirtschaftsuniversität Wien, WU)
+<br> <b>Address</b>: Welthandelsplatz 1, 1020 Vienna |Building: Library and Learning Center (LC)
+<br> <b>Time</b>: August 20th, between 9:45 AM - 3:00 PM
 
 ### Schedule
 9:45 AM - 10:15 AM: Intro to large language models<br>
