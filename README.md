@@ -3,8 +3,10 @@
 
 
 ### Location & Time
-Room: tba
-Time: August 20th, between 9:45 AM - 3:00 PM
+<br> Meeting room: LC.2.400 Club lounge (see the picture & google maps link: https://goo.gl/maps/9NQky6m7Dx6pUQ5V6 for additional orientation)
+<br> Venue: Vienna University of Economics and Business (Wirtschaftsuniversität Wien, WU)
+<br> Address: Welthandelsplatz 1, 1020 Vienna |Building: Library and Learning Center (LC)
+<br> Time: August 20th, between 9:45 AM - 3:00 PM
 
 ### Schedule
 9:45 AM - 10:15 AM: Intro to large language models<br>
@@ -23,9 +25,12 @@ you would like to use your own machine, we also provide instructions for setting
 
 #### (i) Google Colab
 1. If you do not have a Google account, you will need to create one (this can be deleted after the workshop).
-2. Navigate to Google Drive 
-3. In the top-left, click New > More > Colaboratory. If you do not see Colaboratory, you may need to click "Connect more apps" and install it.
-4. Run the following code snipped in the first cell of your notebook to mount your Google Drive to the Colab environment:
+2. Navigate to Google Drive (https://drive.google.com/).
+3. In the top-left, click New > More > Colaboratory. If you do not see Colaboratory, you may need to click "Connect more apps", 
+search for 'Colaboratory', and install it. Then click New > More > Colaboratory. 
+4. Run the following code snipped in the first cell (```shift + enter```) of your notebook to mount your Google Drive to the Colab environment.
+A pop-up will ask you to connect, click through the steps to connect your Google Drive to Colab (you will have to do this
+every time you open a new notebook).
 ```
 from google.colab import drive
 drive.mount("/content/drive")
@@ -35,10 +40,12 @@ drive.mount("/content/drive")
 %cd /content/drive/MyDrive
 !git clone https://github.com/dwulff/LLM4JDM.git
 ```
-6. Go back to your Google Drive and navigate to the folder "LLM4JDM". You should see the directories ex1, ex2, and ex3 containing the relevant notebooks (.ipynb files) and data.
+6. Go back to your Google Drive and navigate to the folder "LLM4JDM". You should see the directories ex1, ex2, and ex3 
+containing the relevant notebooks (.ipynb files) and data (it may take  a couple of minutes for the files to appear).
 7. Open the notebook for exercise 1 (vaccine.ipynb)
-8. In the top-hand menu, click Runtime > Change runtime type > Hardware accelerator > T4 GPU
-9. Run the first cell of the notebook to install the required packages. This may take a few minutes. 
+8. In the top-menu bar, click Runtime > Change runtime type > Hardware accelerator > T4 GPU
+9. Run the first cell of the notebook to install the required packages. This may take a few minutes and ask for you to
+give permission to access your Google Drive. 
 You are now ready to start the exercises!
 
 #### (ii) Local
@@ -50,11 +57,11 @@ You are now ready to start the exercises!
 conda create --name LLM4JDM python=3.8
 ```
 The terminal will ask you to confirm the installation. Type "y" and press enter (do the same for any subsequent steps).
-3. Activate the environment by running the following command in your terminal:
+5. Activate the environment by running the following command in your terminal:
 ```
 conda activate LLM4JDM
 ```
-4. Install the required packages by running the following commands in your terminal:
+6. Install the required packages by running the following commands in your terminal:
 ```
 conda install -c huggingface -c conda-forge jupyter pandas numpy scikit-learn transformers datasets accelerate
 ```
@@ -62,14 +69,14 @@ and
 ```
 pip install evaluate
 ```
-4. If you are using a Mac, you can install an Apple M1/M2 GPU compatible version of PyTorch by running the 
+7. Install PyTorch. If you are using a Mac, you can install an Apple M1/M2 GPU compatible version of PyTorch by running the 
 following command in your terminal (this will drastically speed up the exercises if your Mac has an M1/M2 chip):
 ```
 pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
 ```
 If you are using Windows or Linux, please follow the instructions at https://pytorch.org/get-started/locally/ to install
 the appropriate version of PyTorch for your system.
-6. Run the following command in your terminal to start the Jupyter notebook server:
+8. Run the following command in your terminal to start the Jupyter notebook server:
 ```
 jupyter notebook
 ```
