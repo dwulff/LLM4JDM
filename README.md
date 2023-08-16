@@ -27,8 +27,13 @@ you would like to use your own machine, we also provide instructions for setting
 1. If you do not have a Google account, you will need to create one (this can be deleted after the workshop).
 2. Navigate to Google Drive (https://drive.google.com/).
 3. In the top-left, click New > More > Colaboratory. If you do not see Colaboratory, you may need to click "Connect more apps", 
-search for 'Colaboratory', and install it. Then click New > More > Colaboratory. 
-4. Run the following code snipped in the first cell (```shift + enter```) of your notebook to mount your Google Drive to the Colab environment.
+search for 'Colaboratory', and install it. Then click New > More > Colaboratory.
+
+************
+Please only do the following on the day of the workshop
+***********
+
+5. Run the following code snipped in the first cell (```shift + enter```) of your notebook to mount your Google Drive to the Colab environment.
 A pop-up will ask you to connect, click through the steps to connect your Google Drive to Colab (you will have to do this
 every time you open a new notebook).
 ```
@@ -49,19 +54,17 @@ give permission to access your Google Drive.
 You are now ready to start the exercises!
 
 #### (ii) Local
-1. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
-2. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
-3. Navigate to the folder "LLM4JDM" in your terminal.
-4. Create a new conda environment by running the following command in your terminal:
+1. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
+2. Create a new conda environment by running the following command in your terminal:
 ```
 conda create --name LLM4JDM python=3.8
 ```
 The terminal will ask you to confirm the installation. Type "y" and press enter (do the same for any subsequent steps).
-5. Activate the environment by running the following command in your terminal:
+3. Activate the environment by running the following command in your terminal:
 ```
 conda activate LLM4JDM
 ```
-6. Install the required packages by running the following commands in your terminal:
+4. Install the required packages by running the following commands in your terminal:
 ```
 conda install -c huggingface -c conda-forge jupyter pandas numpy scikit-learn transformers datasets accelerate
 ```
@@ -69,13 +72,20 @@ and
 ```
 pip install evaluate
 ```
-7. Install PyTorch. If you are using a Mac, you can install an Apple M1/M2 GPU compatible version of PyTorch by running the 
+5. Install PyTorch. If you are using a Mac, you can install an Apple M1/M2 GPU compatible version of PyTorch by running the 
 following command in your terminal (this will drastically speed up the exercises if your Mac has an M1/M2 chip):
 ```
 pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
 ```
 If you are using Windows or Linux, please follow the instructions at https://pytorch.org/get-started/locally/ to install
 the appropriate version of PyTorch for your system.
+
+************
+Please only do the following on the day of the workshop
+***********
+
+6. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
+7. Navigate to the folder "LLM4JDM" in your terminal.
 8. Run the following command in your terminal to start the Jupyter notebook server:
 ```
 jupyter notebook
