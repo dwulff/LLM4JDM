@@ -161,3 +161,4 @@ cython_debug/
 /ex1/test_trainer/
 /ex1/distilbert-base-uncased-finetuned-vaccine/
 /ex1/old/
+/ex1/pres.py
