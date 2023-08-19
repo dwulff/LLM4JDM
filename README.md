@@ -14,9 +14,13 @@
 10:45 AM - 11:15 AM: Break<br>
 11:15 AM - 12:00 PM: Exercise 1 - Predicting risk perception<br>
 12:00 PM - 1:00 PM: Lunch<br>
-1:00 PM - 1:45 PM: Exercise 2 - Predicting personality structure<br>
-1:45 PM - 2:30 PM: Exercise 3 - Predicting cognitive reflection<br>
+1:00 PM - 2:00 PM: Exercise 2 - Predicting personality structure<br>
+2:00 PM - 2:30 PM: Exercise 3 - Predicting cognitive reflection<br>
 2:30 PM - 3:00 PM: Discussion<br>
+
+### Resources
+[Hugging face documentation](https://huggingface.co/docs)<br>
+[Hugging face book](https://transformersbook.com/)
 
 ### Environment Setup
 There are two options for setting up your Python environment: (i) Google Colab (cloud-based), (ii) Locally. For the
@@ -91,7 +95,6 @@ Please only do the following on the day of the workshop
 jupyter notebook
 ```
 You are now ready to start the exercises!
-
 
 
 
