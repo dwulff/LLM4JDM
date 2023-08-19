@@ -92,6 +92,9 @@ jupyter notebook
 ```
 You are now ready to start the exercises!
 
+### Resources
+[Hugging face documentation](https://huggingface.co/docs)
+[Hugging face book](https://transformersbook.com/)
 
 
 
