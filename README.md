@@ -18,6 +18,10 @@
 2:00 PM - 2:30 PM: Exercise 3 - Predicting cognitive reflection<br>
 2:30 PM - 3:00 PM: Discussion<br>
 
+### Resources
+[Hugging face documentation](https://huggingface.co/docs)<br>
+[Hugging face book](https://transformersbook.com/)
+
 ### Environment Setup
 There are two options for setting up your Python environment: (i) Google Colab (cloud-based), (ii) Locally. For the
 purposes of this workshop, we recommend using Golab due to the ease of setup and the availability of GPUs. However, if
@@ -91,10 +95,6 @@ Please only do the following on the day of the workshop
 jupyter notebook
 ```
 You are now ready to start the exercises!
-
-### Resources
-[Hugging face documentation](https://huggingface.co/docs)<br>
-[Hugging face book](https://transformersbook.com/)
 
 
 
