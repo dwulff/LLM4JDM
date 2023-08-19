@@ -15,7 +15,7 @@
 11:15 AM - 12:00 PM: Exercise 1 - Predicting risk perception<br>
 12:00 PM - 1:00 PM: Lunch<br>
 1:00 PM - 1:45 PM: Exercise 2 - Predicting personality structure<br>
-1:45 PM - 2:30 PM: Exercise 3 - Predicting open responses<br>
+1:45 PM - 2:30 PM: Exercise 3 - Predicting cognitive reflection<br>
 2:30 PM - 3:00 PM: Discussion<br>
 
 ### Environment Setup
