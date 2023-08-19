@@ -9,7 +9,7 @@
 <b>Time</b>: August 20th, between 9:45 AM - 3:00 PM
 
 ### Schedule
-9:45 AM - 10:15 AM: Intro to large language models<br>
+9:45 AM - 10:15 AM: [Intro to large language models](LLM4JDM_Intro.pdf)<br>
 10:15 AM - 10:45 AM: Intro to Huggingface<br>
 10:45 AM - 11:15 AM: Break<br>
 11:15 AM - 12:00 PM: Exercise 1 - Predicting health perception<br>
