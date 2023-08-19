@@ -93,7 +93,7 @@ jupyter notebook
 You are now ready to start the exercises!
 
 ### Resources
-[Hugging face documentation](https://huggingface.co/docs)
+[Hugging face documentation](https://huggingface.co/docs)<br>
 [Hugging face book](https://transformersbook.com/)
 
 
