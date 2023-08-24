@@ -1,5 +1,6 @@
 ## Large language models in jugdment and decision making research
 ### A workshop by Zak Hussain, Sudeep Bhatia, and Dirk Wulff
+<br>
 
 ### Location & Time
 <b>Meeting room</b>: LC.2.400 Club lounge (see [google maps](https://goo.gl/maps/9NQky6m7Dx6pUQ5V6))<br> 
